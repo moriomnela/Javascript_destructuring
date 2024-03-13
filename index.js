@@ -129,4 +129,25 @@ const devs = [
 console.log(newArr.reverse());*/
 
 
-                        
+const dev = {
+    name : "Moriom Islam Nela",
+    age : 20,
+    skill : "Laravel Developer",
+    edu : {
+        ssc :{
+            gpa : "5.00",
+            grade : "A+",
+        },
+        hsc : {
+            gpa : "5.00",
+            grade : "A+",
+        },
+        Bsc : {
+            cgpa : "3.50",
+        },
+    },
+};
+const { name, age , skill, edu } = dev;
+const { ssc, hsc, Bsc } = edu;
+
+console.log (skill);            
